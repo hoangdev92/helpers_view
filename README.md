@@ -28,8 +28,30 @@ OR Add to Gemfile:
     gem 'helpers_view'
 
 ## Usage
+--- example ---
+- tooltips:
 
-TODO: Write usage instructions here
+    <%= render_tooltip_html('button', 'click', 'sadsad', {class_name: 'btn btn-primary', placement: 'top', version_bootstrap: 5}) %>
+
+- button:
+
+    <%= render_button_html({text: 'button'}) %>
+
+- money VND
+
+    <%= render_monney_vnd_html(12031213) %>
+
+- file size
+
+    <%= render_file_size_html(12213213) %>
+
+- modal and block
+
+    <%= render_modal_html(id: 'id_modal', width_class: 'id_modal', body_class: 'aa') do %>
+        <div class="primary">
+            <span>hello world</span>
+        </div>
+    <% end %>
 
 ## Contributing
 
