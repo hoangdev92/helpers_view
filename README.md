@@ -10,6 +10,9 @@ Input Fields: Quickly create forms with inputs, labels, and error messages, full
 Currency Formatting: Effortlessly render currency values in Vietnamese (VND) and Japanese (JPY) formats, adhering to the localized number formatting conventions of each language.
 With helpers_view, you can accelerate your development workflow, enhance code readability, and maintain a consistent user interface across your project.
 
+## Important
+-Currently only supports bootstrap version 4 and above
+
 ## Installation
 
 Install the gem and add to the application's Gemfile by executing:
